@@ -5,5 +5,7 @@ class Prog4 {
         System.out.println("Enter the temperature in farhenite scale: ");
         double farhenite = in.nextDouble();
         System.out.println("Temperature in celsius is: " + ((farhenite - 32) / 1.8));
+
+        in.close();
     }
 }

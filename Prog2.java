@@ -27,5 +27,7 @@ class Prog2 {
             discountedAmt = -1;
         }
         System.out.println("The net discount after purchase is: " + discountedAmt + "rupees only");
+
+        in.close();
     }
 }

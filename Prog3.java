@@ -26,5 +26,7 @@ class Prog3 {
         System.out.println("The highest temperature ever recorded is: " + highestTemp + " degrees");
         System.out.println("The city with the highest temperature is: City " + highestCity);
         System.out.println("The date on which city " + highestCity + " had the highest temperature on July " + highestDay);
+        
+        in.close();
     }
 }

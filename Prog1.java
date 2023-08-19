@@ -23,5 +23,7 @@ class Prog1 {
         else {
             System.out.println("You are not admitted into college");
         }
+
+        in.close();
     }
 }
