@@ -11,5 +11,7 @@ class Prog6 {
             num =  num / 10;
         }
         System.out.println("The sum of all the digits in the number is: " + sum);
+
+        in.close();
     }
 }
